@@ -6,7 +6,7 @@ import pytest
 from base_page import BasePage
 from locators import MainPageLocators, AuthPageLocators
 
-class TestLogin:
+class TestLogout:
     @pytest.mark.positive
     def test_logout_after_login_shows_login_button(self, driver, base_url, registered_user):
         driver.get(base_url)
